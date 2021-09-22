@@ -5,10 +5,24 @@
 }
 
 body {
-  background: url("/public/images/dark-blue.svg") no-repeat right top/cover;
-  background-size: 1280px auto;
+  position: relative;
   color: #354051;
   font-weight: 500;
+}
+
+.main {
+  background: url("/public/images/dark-blue.svg") no-repeat right top/cover;
+  background-size: 1280px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.overlap {
+  position: relative;
+  z-index: 999;
 }
 
 .dashed {
@@ -58,4 +72,68 @@ body {
 
 .text-accent, .btn-link {
   color: #5fbcff;
+}
+
+.border-accent {
+  border-color: #5fbcff !important;
+  border-width: 7px !important;
+}
+
+.bg-light-blue {
+  background: rgba(94, 185, 255, 0.21);
+}
+
+.light-bg {
+  background: url("/public/images/light-white.svg") no-repeat;
+  background-size: cover;
+  padding: 200px 0 370px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .main-button {
+    background-color: #fff !important;
+    color: #5fbcff;
+  }
+  .main-link {
+    color: #fff;
+  }
+  .mt-9 {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .light-bg {
+    padding: 0 0 370px 0;
+  }
+}
+
+/* width */
+#scroll-1::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#scroll-1::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#scroll-1::-webkit-scrollbar-thumb {
+  background: #5fbcff;
+}
+
+/* Handle on hover */
+#scroll-1::-webkit-scrollbar-thumb:hover {
+  background: #5fbcffc0;
+}
+
+.extra-small {
+  font-size: 13.5px;
+}
+
+.box-size {
+  max-width: 370px;
+  min-width: 330px;
+  min-height: 220px;
 }

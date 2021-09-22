@@ -31,6 +31,15 @@ body {
     top:0;
     right: 0
 }
+.blue-box{
+ right: -25px;
+}
+.blue-box  img {
+  width: 25px; 
+}
+.w-15{
+  width:50px
+}
 .overlap{
   position: relative;
   z-index: 999;
@@ -85,14 +94,30 @@ border-color: $accent-color !important;
 border-width: 7px !important;
 }
 .bg-light-blue{
-  background: rgba(94, 185, 255, 0.21);
+  background: #eefaff;
+}
+.unc-img{
+  right: -180px; 
+  bottom: 220px;
 }
 .light-bg{
   background: url("/public/images/light-white.svg") no-repeat;
   background-size: cover;
   padding: 200px 0 370px 0;
 }
-
+.got-em-bg{
+  background: url("/public/images/got-em.png") no-repeat center center;
+  background-size: contain;
+}
+.rectangle-bg{
+  background: url("/public/images/rectangle-blue.svg") no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  margin-top: -230px;
+}
+.large-twitter{
+  top: -26px; width: 250px; right: -10px
+}
 @media screen and (max-width:992px) {
 .main-button{
   background-color: $primary-color !important;
@@ -142,4 +167,8 @@ border-width: 7px !important;
   max-width: 370px;
    min-width: 330px;
     min-height: 220px
+}
+footer{
+  background-color: #f9f9f9; 
+  padding: 100px 30px 30px 30px
 }

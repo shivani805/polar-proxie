@@ -14,7 +14,6 @@ body {
   background: url("../images/dark-blue.svg") no-repeat right top/cover;
   background-size: 1280px;
   width: 100%;
-  border:1px solid red;
   height: 100%;
   position: absolute;
   top: 0;

@@ -11,9 +11,10 @@ body {
 }
 
 .main {
-  background: url("/public/images/dark-blue.svg") no-repeat right top/cover;
+  background: url("../images/dark-blue.svg") no-repeat right top/cover;
   background-size: 1280px;
   width: 100%;
+  border:1px solid red;
   height: 100%;
   position: absolute;
   top: 0;
@@ -101,18 +102,18 @@ body {
 }
 
 .light-bg {
-  background: url("/public/images/light-white.svg") no-repeat;
+  background: url("../images/light-white.svg") no-repeat;
   background-size: cover;
   padding: 200px 0 370px 0;
 }
 
 .got-em-bg {
-  background: url("/public/images/got-em.png") no-repeat center center;
+  background: url("../images/got-em.png") no-repeat center center;
   background-size: contain;
 }
 
 .rectangle-bg {
-  background: url("/public/images/rectangle-blue.svg") no-repeat;
+  background: url("../images/rectangle-blue.svg") no-repeat;
   background-size: cover;
   padding: 200px 0;
   margin-top: -230px;

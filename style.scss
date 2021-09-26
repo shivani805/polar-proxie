@@ -163,10 +163,13 @@ border-width: 7px !important;
 .extra-small{
   font-size: 13.5px;
 }
-.box-size{
-  max-width: 370px;
-   min-width: 330px;
-    min-height: 220px
+
+.polar-box{
+  min-width: 350px;
+  max-width: 430px;
+  min-height: 290px;
+  display:flex;
+  flex-direction: column
 }
 footer{
   background-color: #f9f9f9; 

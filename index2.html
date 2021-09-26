@@ -18,9 +18,9 @@
   </head>
 
   <body>
-    <div class="container  mt-7">
-      <div class="row row-cols-1 justify-content-center">
-        <div class="col-12 col-lg-8 flex-grow-1"style="max-width:900px">
+    <div class="container-xxl  mt-7">
+      <div class="row row-cols-1 justify-content-center" >
+        <div class="col-12 col-lg-8 flex-grow-1">
           <div class="row row-cols-2 gap-1  justify-content-between">
             <!-- first box -->
             <div
@@ -33,8 +33,7 @@
                 rounded-3
                 my-3
                 col
-                box-size
-              "
+                polar-box"
             >
               <h5 class="text-center bg-accent rounded-3 py-2 shadow-sm">
                 Polar Elite
@@ -42,10 +41,9 @@
 
               <div
                 class="
-                  my-4
-                  mx-3
+                   my-auto
                   d-flex
-                  justify-content-between
+                  justify-content-evenly
                   align-items-center
                 "
               >
@@ -53,7 +51,7 @@
                   class="rounded-circle border border-accent"
                   style="width: 130px; height: 130px"
                 ></div>
-                <div class="" style="width: 9.3rem">
+                <div style="width: 9.3rem">
                   <div class="bg-accent p-2 m-2 rounded-3">Total GB:</div>
                   <div class="bg-accent p-2 m-2 rounded-3">Used GB:</div>
                   <div class="bg-accent p-2 m-2 rounded-3">GB Left:</div>
@@ -71,8 +69,8 @@
                 mx-auto
                 rounded-3
                 my-3
+                polar-box
                 col
-                box-size
               "
          
             >
@@ -80,7 +78,7 @@
                 Purchase Polar Elite
               </h5>
               <h5 class="fw-bold fs-2 text-secondary my-3">$35</h5>
-              <div class="d-flex flex-column justify-content-end h-50">
+              <div class="d-flex flex-column justify-content-end h-100" >
                 <div class="row gap-2 text-center px-3 extra-small">
                   <span class="bg-accent col text-white rounded-3 py-1 px-1"
                     >2 GB</span
@@ -116,7 +114,7 @@
                 col
                 bg-light-blue
                 col
-                box-size
+                polar-box
               "
             
             >
@@ -165,7 +163,7 @@
                   <option value="3">Three</option>
                 </select>
               </div>
-              <div style="height: 60%" class="d-flex">
+              <div  class="d-flex  h-100 mb-2">
                 <button class="btn btn-accent w-100 mt-auto" type="button">
                   Generate
                 </button>
@@ -174,11 +172,12 @@
 
             <!-- fourth box -->
             <div
-              class="bg-light-blue shadow px-3 py-2 rounded-3 my-3 col mx-auto box-size"
+                polar-box
+              class="bg-light-blue shadow px-3 py-2 rounded-3 my-3 col mx-auto box-size polar-box"
             >
               <div
                 class="bg-white rounded-3 overflow-auto mb-3 px-3 py-2 fs-6"
-                style="height: 180px"
+                style="height: 200px"
                 id="scroll-1"
               >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis
@@ -190,7 +189,7 @@
                 alias, laudantium harum quod molestiae magni adipisci velit
                 rerum! Tempora, aliquam.
               </div>
-              <div class="mx-3 d-flex justify-content-end align-items-center">
+              <div class="mx-3 d-flex justify-content-end align-items-end my-2">
                 <button class="btn btn-accent px-4" type="button">Copy</button>
                 <button class="btn btn-accent px-4 ms-3" type="button">
                   Clear
@@ -205,17 +204,17 @@
             shadow
             pt-2
             pb-5
-            px-3
-            col-md-4 col-8 col-sm-5 col-lg-3 col-xxl-2
+            px-4
             my-3
-            ms-xl-4
             mx-auto
             d-flex
             align-items-center
             flex-column
+            ms-xxl-5
+            ms-lg-4
             gap-4
           "
-          style="max-height: 600px;"
+          style="max-height: 634px;max-width: 260px;"
         >
           <button class="btn btn-accent w-100" type="button">
             Toggle Dashboard
